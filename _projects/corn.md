@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: "Corn Sweet Corn" 
+description: ECE296 Final Project @ U of I
+img:
+importance: 4
+category: Class Projects
 ---
 
 Every project has a beautiful feature showcase page.

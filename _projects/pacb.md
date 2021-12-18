@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: PACB
+description: Probelm Agonostic Cluster-Based Audio Pretraining
 img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+importance: 1
+category: Research Projects
 ---
 
 Every project has a beautiful feature showcase page.

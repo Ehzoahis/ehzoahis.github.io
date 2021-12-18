@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Linux-like OS Kernel
+description: ECE391 Final Project @ U of I
+img:
+importance: 2
+category: Class Projects
 ---
 
 Every project has a beautiful feature showcase page.

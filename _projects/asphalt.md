@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Asphalt
+description: ECE385 Final Project @ U of I
+img: 
 importance: 3
-category: fun
+category: Class Projects
 ---
 
 Every project has a beautiful feature showcase page.

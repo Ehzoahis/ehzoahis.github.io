@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Anchor-Based FedAvg
+description: An Distributed Invariant Feature Learning Algorithm
+img: 
 importance: 1
-category: work
+category: Research Projects
 ---
 
 Every project has a beautiful feature showcase page.
