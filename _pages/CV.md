@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-permalink: /resume/
+permalink: /cv/
 description: My Curriculum Vitae
 nav: true
 display_categories: [2021, 2020, 2019, 2018]
