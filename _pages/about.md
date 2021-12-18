@@ -16,4 +16,4 @@ I am a *Computer Engineering* B.S. graduted from the Department of *Electrical a
 
 My current research interest is in machine learning. In particular, I am recently working on projects about domain generalization and deep representation learning and their applications in federated learning and signal precessing. Besides that, my research interests also lie in computer vision, robotics, and reinforcement learning.
 
-[[Curriculum Vitae](/assets/pdf/example_pdf.pdf)] [[Digital Portoflio](https://space.bilibili.com/5374388)]
+[[Curriculum Vitae](/assets/pdf/Si Haozhe Resume.pdf)] [[Digital Portoflio](https://space.bilibili.com/5374388)]
