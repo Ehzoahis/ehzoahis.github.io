@@ -13,7 +13,7 @@
   Haozhe  Si
 
 
-  | blog
+  | Asphalt
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -39,7 +39,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://ehzoahis.github.io/blog/">
+<link rel="canonical" href="https://ehzoahis.github.io/projects/asphalt/">
 
 
 <!-- Dark Mode -->
@@ -166,18 +166,45 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Asphalt</h1>
+    <p class="post-description">ECE385 Final Project @ U of I</p>
+  </header>
 
-
-  <ul class="post-list">
+  <article>
+    <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <picture>
     
-  </ul>
+    <source media="(max-width: 480px)" srcset="/assets/resized/asphalt-480x211.png"></source>
+    
+    <source media="(max-width: 800px)" srcset="/assets/resized/asphalt-800x351.png"></source>
+    
+    <source media="(max-width: 1400px)" srcset="/assets/resized/asphalt-1400x615.png"></source>
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/asphalt.png" title="overall diagram for the system">
+</picture>
 
-  
+    </div>
+</div>
+<div class="caption">
+    Overall Diagram for the System
+</div>
 
+<ul>
+  <li>
+    <p>Designed &amp; coded car chasing game on FPGA board using System Verilog for game logic and C for keyboard communication;</p>
+  </li>
+  <li>
+    <p>Implemented a player’s car as the chaser, an AI car as the target and car streams in different direction and with different speeds as obstacles; Realized collision detection so that the AI car can avoid obstacles autonomously.</p>
+  </li>
+</ul>
+
+<p>Click <a href="/assets/pdf/ECE385%20Final%20Report.pdf">here</a> for Project Report.</p>
+
+<p><a href="https://github.com/Ehzoahis/Asphalt" target="_blank" rel="noopener noreferrer">Link to the Repo</a></p>
+
+  </article>
 
 </div>
 
