@@ -8,7 +8,7 @@ category: Class Projects
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/391code.png title: "file system" class: "img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/391code.png" title="file system" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

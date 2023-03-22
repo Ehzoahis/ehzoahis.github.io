@@ -9,12 +9,13 @@ category: Class Projects
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/asphalt.png title: "overall diagram for the system" class: "img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/asphalt.png" title="overall diagram for the system" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Overall Diagram for the System
 </div>
+
 
 - Designed & coded car chasing game on FPGA board using System Verilog for game logic and C for keyboard communication;
 
