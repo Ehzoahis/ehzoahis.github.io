@@ -14,7 +14,7 @@
   - firstname: ["Xuelong"]
     url: https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=en
 
-"Zhao"
+"Zhao":
   - firstname: ["Bin"]
     url: https://scholar.google.com.hk/citations?user=DQB0hqwAAAAJ&hl=zh-CN
 
@@ -26,6 +26,6 @@
   - firstname: ["Mulin"]
     url: https://scholar.google.com/citations?user=8P7q1wQAAAAJ&hl=zh-CN
 
-"Wang"
+"Wang":
   - firstname: ["Zhigang"]
     url: https://ieeexplore.ieee.org/author/37088450941
