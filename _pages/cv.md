@@ -1,8 +1,9 @@
 ---
-layout: cv
+layout: page
+title: Curriculum Vitae
 permalink: /cv/
-title: cv
-nav: true
-nav_order: 4
-cv_pdf: example_pdf.pdf
+description: My Curriculum Vitae
+nav: false
+display_categories: [2021, 2020, 2019, 2018]
+horizontal: false
 ---
