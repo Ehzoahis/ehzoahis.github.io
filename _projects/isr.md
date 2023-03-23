@@ -2,7 +2,7 @@
 layout: page
 title: ISR
 description: Invariant-Feature Subspace Recovery
-img: assets/img/isr.png
+img: assets/img/ISR.png
 importance: 1
 category: Research Projects
 ---
