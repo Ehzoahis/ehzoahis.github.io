@@ -4,12 +4,12 @@ permalink: /teaching/
 title: Teaching
 description: My teaching experience.
 years: [2023]
-nav: True
+nav: false
 horizontal: True
 ---
 <div class="teaching">
   <!-- Display projects without categories -->
-    {% assign sorted_teaching = site.teaching | sort: "year" %}
+    {% assign sorted_teaching = site.teaching | sort: "years" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
       <div class="container">
