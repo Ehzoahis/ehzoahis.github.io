@@ -10,9 +10,9 @@
   - firstname: ["Bo"]
     url: https://aisecure.github.io/
 
-"Zhao":
-  - firstname: ["Bin"]
-    url: https://scholar.google.com.hk/citations?user=DQB0hqwAAAAJ&hl=zh-CN
+# "Zhao":
+#   - firstname: ["Bin"]
+#     url: https://scholar.google.com.hk/citations?user=DQB0hqwAAAAJ&hl=zh-CN
 
 "Wang":
   - firstname: ["Dong"]
@@ -26,6 +26,6 @@
   - firstname: ["Zhigang"]
     url: https://ieeexplore.ieee.org/author/37088450941
 
-"Li":
-  - firstname: ["Xuelong"]
-    url: https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=en
+# "Li":
+#   - firstname: ["Xuelong"]
+#     url: https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=en
