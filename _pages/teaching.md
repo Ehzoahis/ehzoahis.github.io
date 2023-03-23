@@ -1,11 +1,17 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: 
+title: Teaching
+description: My recent teaching.
+years: [2023]
 nav: False
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+{% for y in page.years %}
 
-Organize your courses by years, topics, or universities, however you like!
+  <h2 class="year">{{y}}</h2>
+
+  {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div>
