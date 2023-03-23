@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BR-FDG 
+title: Byzantine-Robust FDG 
 description: Byzantine-Robust Federated Domain Generalization
 img: assets/img/DGFLTrust.png
 importance: 2
