@@ -5,7 +5,7 @@ permalink: /projects/
 description: My lastest cool projects.
 nav: true
 display_categories: [Research Projects, Class Projects]
-horizontal: true
+horizontal: false
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
