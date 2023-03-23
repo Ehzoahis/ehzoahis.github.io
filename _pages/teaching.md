@@ -27,6 +27,5 @@ horizontal: True
       </div>
     {% endif %}
 
-  {% endif %}
 
 </div>
