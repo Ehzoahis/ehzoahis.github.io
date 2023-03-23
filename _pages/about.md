@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: Computer Engineering B.S.<br><a href="https://illinois.edu/">University of Illinois Urbana-Champaign</a>
+subtitle: Computer Engineering M.S.<br><a href="https://illinois.edu/">University of Illinois Urbana-Champaign</a>
 profile:
   align: right
   image: prof_pic.jpg
