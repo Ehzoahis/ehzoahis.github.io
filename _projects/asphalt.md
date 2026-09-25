@@ -16,7 +16,6 @@ category: Class Projects
     Overall Diagram for the System
 </div>
 
-
 - Designed & coded car chasing game on FPGA board using System Verilog for game logic and C for keyboard communication;
 
 - Implemented a player’s car as the chaser, an AI car as the target and car streams in different direction and with different speeds as obstacles; Realized collision detection so that the AI car can avoid obstacles autonomously.

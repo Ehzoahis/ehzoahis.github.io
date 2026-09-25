@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Academic Rank 
+title: Academic Rank
 description: Academic Works Ranking Algorithm
 img: assets/img/acarank.png
 importance: 4

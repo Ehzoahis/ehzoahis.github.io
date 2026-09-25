@@ -13,7 +13,6 @@ category: Class Projects
 
 - Implemented inverse kinematics and forward kinematics solver for the robot to pick up and throw the ball; Calculated and designed precise trajectories robot follows.
 
-
 <div align="center">
       <a href="https://youtu.be/G5rgLZmNWX4">
      <img 

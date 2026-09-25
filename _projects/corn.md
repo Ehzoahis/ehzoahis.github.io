@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Corn Sweet Corn" 
+title: "Corn Sweet Corn"
 description: ECE296 Final Project @ U of I
 img: assets/img/corn.png
 importance: 4
