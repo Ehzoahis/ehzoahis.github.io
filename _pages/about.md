@@ -2,18 +2,25 @@
 layout: about
 title: About
 permalink: /
-subtitle: Electrical and Computer Engineering Ph.D.<br><a href="https://illinois.edu/">University of Illinois Urbana-Champaign</a>
+subtitle: Ph.D. Student, Electrical and Computer Engineering<br>University of Illinois Urbana-Champaign
 profile:
   align: right
   image: prof_pic.jpg
-
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+  image_circular: false
+selected_papers: true
+social: true
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+latest_posts:
+  enabled: false
 ---
 
-I am a second-year Ph.D. student in the Department of *Electrical and Computer Engineering* at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) (UIUC) advised by Prof. [Han Zhao](https://hanzhaoml.github.io/). I obtained my B.S. degree in 2021 from UIUC with major in *Computer Engineering*. During my undergraduate studies, I was fortunate to be co-advised by Prof. [Han Zhao](https://hanzhaoml.github.io/) and Prof. [Bo Li](https://aisecure.github.io/). Previously, I worked in the FORWARD Lab led by Prof. [Kevin Chen-Chuan Chang](http://www.forwarddatalab.org/kevinccchang). 
+I am a Ph.D. student in Electrical and Computer Engineering at the [University of Illinois Urbana-Champaign](https://illinois.edu/), advised by Prof. [Han Zhao](https://hanzhaoml.github.io/). I expect to graduate in May 2027. I received my B.S. in Computer Engineering from UIUC in December 2021, graduating with highest honors.
 
-My current research interest is in machine learning. In particular, I am recently working on projects about Vision Language Model and multi-task learning. Besides that, my research interests also lie in computer vision, robotics, and reinforcement learning.
+My research focuses on **multimodal foundation models, remote sensing, and generative models**, with an emphasis on **parameter-efficient transfer learning and out-of-distribution generalization**. I develop foundation models and large-scale datasets for multimodal, hyperspectral, and spatiotemporal geospatial data.
 
-[[Curriculum Vitae](/assets/pdf/Si Haozhe CV.pdf)] [[Résumé](/assets/pdf/Si Haozhe CV.pdf)] [[Digital Portoflio](https://space.bilibili.com/5374388)]
+From August 2023 to August 2026, I worked as a research assistant at the **IBM-Illinois Discovery Accelerator Institute**, with Prof. Han Zhao and Dr. Hendrick Hamann. I was an Applied Scientist Intern at **Amazon Customer Trust** in summer 2025 and **Amazon Merch on Demand** in summer 2024. Previously, I was a research intern at **Shanghai AI Lab**, working with Prof. Bin Zhao on self-supervised depth estimation.
+
+[Curriculum Vitae]({{ '/assets/pdf/Si Haozhe CV.pdf' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [Digital Portfolio](https://space.bilibili.com/5374388)

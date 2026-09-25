@@ -2,16 +2,21 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: My recent publictions.
-years: [2024, 2023, 2022]
-nav: True
+description: Publications and preprints, updated September 2026.
+nav: true
+nav_order: 1
 ---
 
+## Publications
+
 <div class="publications">
+{% bibliography -f papers -q @*[status=published] %}
+</div>
 
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+## Preprints
 
+<span>\* Equal contribution. Review status follows my September 2026 CV.</span>
+
+<div class="publications">
+{% bibliography -f papers -q @*[status=preprint] %}
 </div>

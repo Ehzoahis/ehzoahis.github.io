@@ -1,9 +1,12 @@
 ---
-layout: page
-title: Curriculum Vitae
+layout: cv
 permalink: /cv/
-description: My Curriculum Vitae
-nav: false
-display_categories: [2021, 2020, 2019, 2018]
-horizontal: false
+title: CV
+nav: true
+nav_order: 4
+cv_pdf: /assets/pdf/Si%20Haozhe%20CV.pdf
+cv_format: rendercv
+description: Updated September 2026.
+toc:
+  sidebar: left
 ---

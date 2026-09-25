@@ -2,8 +2,11 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: My teaching experience.
-years: [2023]
-nav: false
-horizontal: false
+nav: true
+nav_order: 3
 ---
+
+Teaching experience at the University of Illinois Urbana-Champaign:
+
+- **ECE 544: Pattern Recognition** — Fall 2026
+- **ECE 385: Digital Systems Laboratory** — Spring 2023, Fall 2023

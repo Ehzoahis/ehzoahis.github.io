@@ -1,97 +1,163 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Haozhe Si
-    - name: Date of Birth
-      value: 1st November 1999
-    - name: Languages
-      value: Chinese, English
-
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D.
-      institution: University of Illinois Urbana-Champaign
-      year: 2027
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: B.S.
-      institution: University of Illinois Urbana-Champaign
-      year: 2021
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+---
+cv:
+  name: Haozhe (Hank) Si
+  label: Ph.D. Student, Electrical and Computer Engineering
+  email: haozhes3@illinois.edu
+  location: Urbana, IL, United States
+  summary: "Research interests: multimodal foundation models, remote sensing, generative
+    models, parameter-efficient transfer learning, and out-of-distribution generalization."
+  sections:
+    Education:
+      - institution: University of Illinois Urbana-Champaign
+        area: Electrical and Computer Engineering
+        studyType: Ph.D.
+        start_date: 2022-08
+        end_date: 2027-05
+        highlights:
+          - "Expected graduation: May 2027. GPA: 4.0."
+          - "Advisor: Prof. Han Zhao."
+      - institution: University of Illinois Urbana-Champaign
+        area: Computer Engineering
+        studyType: Bachelor of Science
+        start_date: 2018-08
+        end_date: 2021-12
+        highlights:
+          - "GPA: 3.97."
+          - Highest Honors at Graduation.
+    Experience:
+      - company: IBM-Illinois Discovery Accelerator Institute (IIDAI)
+        position: Research Assistant
+        start_date: 2023-08
+        end_date: 2026-08
+        highlights:
+          - With Prof. Han Zhao and Dr. Hendrick Hamann.
+          - Designed flexible and efficient foundation models for multimodal and hyperspectral
+            geospatial data.
+          - Researched foundation models for spatiotemporal and multi-source geospatial
+            data.
+          - Developed large-scale geospatial datasets and pipelines for multi-source acquisition,
+            spatial and temporal indexing, alignment, metadata management, quality control,
+            and scalable preprocessing.
+          - Worked on a large-scale event-centric InSAR dataset, including event discovery,
+            geospatial sampling, temporal organization, preprocessing, and quality assessment.
+      - company: Amazon — Customer Trust
+        position: Applied Scientist Intern
+        start_date: 2025-05
+        end_date: 2025-08
+        highlights:
+          - With Prof. Rui Song, Prof. Hengrui Cai, and Prof. Sheng Wang.
+          - Researched conditioned text-embedding synthesis via an autoregressive conditional
+            variational autoencoder.
+      - company: Amazon — Merch on Demand
+        position: Applied Scientist Intern
+        start_date: 2024-05
+        end_date: 2024-08
+        highlights:
+          - With Dr. Zhixiong Zhang.
+          - Enhanced text controllability and identity fidelity for personalized image
+            generative models.
+      - company: Shanghai AI Lab
+        position: Research Intern
+        start_date: 2022-03
+        end_date: 2023-09
+        highlights:
+          - With Prof. Bin Zhao.
+          - Researched fully self-supervised depth from defocus.
+    Publications:
+      - title: "LESSViT: Robust Hyperspectral Representation Learning under Spectral
+          Configuration Shift"
+        authors:
+          - Haozhe Si
+          - Y. Wan
+          - Y. Wang
+          - M. Do
+          - Han Zhao
+        publisher: Advances in Neural Information Processing Systems
+        releaseDate: "2026"
+        summary: Haozhe Si, Y. Wan, Y. Wang, M. Do, Han Zhao
+      - title: "Moment Alignment: Unifying Gradient and Hessian Matching for Domain
+          Generalization"
+        authors:
+          - Y. Chen
+          - Haozhe Si
+          - G. Zhang
+          - Han Zhao
+        publisher: Conference on Uncertainty in Artificial Intelligence
+        releaseDate: "2025"
+        summary: Y. Chen, Haozhe Si, G. Zhang, Han Zhao
+      - title: Towards a Foundation Model for Multi-modal and Multi-spectral Geospatial
+          Data
+        authors:
+          - Haozhe Si
+          - Y. Wan
+          - M. Do
+          - V. Deepak
+          - Han Zhao
+          - H. F. Hamann
+        publisher: TerraBytes Workshop at ICML
+        releaseDate: "2025"
+        summary: Haozhe Si, Y. Wan, M. Do, V. Deepak, Han Zhao, H. F. Hamann
+      - title: "Furry IP-Adapter: Preserving the Text-to-Image Capability of Stable
+          Diffusion in IP-Adapter"
+        authors:
+          - Haozhe Si
+          - X. Zhang
+          - Z. Zhang
+        publisher: Amazon Computer Vision Conference Workshop on Multimodal Generation
+        releaseDate: "2024"
+        summary: Haozhe Si, X. Zhang, Z. Zhang
+      - title: Enhancing Compositional Generalization via Compositional Feature Alignment
+        authors:
+          - Haoxiang Wang
+          - Haozhe Si
+          - Huajie Shao
+          - Han Zhao
+        publisher: Transactions on Machine Learning Research
+        releaseDate: "2024"
+        summary: Haoxiang Wang, Haozhe Si, Huajie Shao, Han Zhao
+      - title: Fully Self-Supervised Depth Estimation from Defocus Clue
+        authors:
+          - Haozhe Si
+          - Bin Zhao
+          - Dong Wang
+          - Mulin Chen
+          - Yunpeng Gao
+          - Zhigang Wang
+          - Xuelong Li
+        publisher: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+        releaseDate: "2023"
+        summary: Haozhe Si, Bin Zhao, Dong Wang, Mulin Chen, Yunpeng Gao, Zhigang Wang,
+          Xuelong Li
+      - title: Provable Domain Generalization via Invariant-Feature Subspace Recovery
+        authors:
+          - Haoxiang Wang
+          - Haozhe Si
+          - Bo Li
+          - Han Zhao
+        publisher: International Conference on Machine Learning
+        releaseDate: "2022"
+        summary: Haoxiang Wang, Haozhe Si, Bo Li, Han Zhao
+    Preprints:
+      - bullet: "**ChronoEarth-492K: A Large Scale and Long Horizon Spatiotemporal Hyperspectral
+          Dataset and Benchmark**. Haozhe Si, Y. Wan, Y. Wang, M. Do, Han Zhao. Under
+          review at ISPRS Journal of Photogrammetry and Remote Sensing."
+      - bullet: "**Invariant-Feature Subspace Recovery: A New Class of Provable Domain
+          Generalization Algorithms**. Haoxiang Wang (equal contribution), G. Balasubramaniam
+          (equal contribution), Haozhe Si, Bo Li, Han Zhao. Under review at Journal
+          of Machine Learning Research (JMLR)."
+    Service:
+      - label: Reviewer
+        details: NeurIPS (2023, 2026); TPAMI (2023, 2024, 2026); AAAI (2024); TMLR (2024);
+          CVPR (2026); ECCV (2026).
+    Awards:
+      - title: James Scholar, Grainger College of Engineering
+        awarder: University of Illinois Urbana-Champaign
+      - title: The O. Thomas and Martha S. Purl Scholarship
+        awarder: University of Illinois Urbana-Champaign
+      - title: Highest Honors at Graduation, Grainger College of Engineering
+        awarder: University of Illinois Urbana-Champaign
+    Teaching:
+      - label: "ECE 544: Pattern Recognition"
+        details: Fall 2026, University of Illinois Urbana-Champaign.
+      - label: "ECE 385: Digital Systems Laboratory"
+        details: Spring 2023 and Fall 2023, University of Illinois Urbana-Champaign.
